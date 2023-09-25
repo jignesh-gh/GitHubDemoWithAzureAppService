@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-     - run: echo "Payfield value is ${{ github.event.client_payload.mydata }}"
+     - run: echo "Payload field value is - ${{ github.event.client_payload.mydata }}"
      - run: echo "This job was triggered by ${{ github.e.event_name }} event"
     
